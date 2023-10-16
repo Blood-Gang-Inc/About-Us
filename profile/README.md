@@ -1,7 +1,7 @@
 <div class="container">
         <h2>Hi there 👋</h2>
         <p>
-           "Passionate about coding and creating with open-source libraries. Crafting scripts to make things happen! 🚀":
+           "Passionate about coding and creating with open-source libraries. Crafting scripts to make things happen! 🚀"
         </p>
         </div>
         <div class="social-links">
