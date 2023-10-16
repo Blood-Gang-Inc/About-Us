@@ -12,7 +12,7 @@
             <a href="https://youtube.com/@BloodGangInc">YouTube</a>
             <a href="https://reddit.com/r/4zx16">Community Posts</a>
             <a href="https://twitter.com/BloodGangInc">Twitter</a>
-            <a href="https://linkr.it/blood">Discord</a>
+            <a href="https://linkr.it/blood" class="discord-link">Discord <span class="discord-icon">&#x1F5A4;</span></a>
             <a href="https://linkr.it/bloodweb">Website</a>
             <a href="https://www.roblox.com/groups/3901342">Roblox</a>
         </div>
