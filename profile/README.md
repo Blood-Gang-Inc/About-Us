@@ -1,16 +1,16 @@
 <div class="container">
         <h2>Hi there 👋</h2>
         <p>
-           "Passionate about coding and creating with open-source libraries. Crafting scripts to make things happen! 🚀"
+           "Passionate about coding and creating with open-source libraries. Crafting scripts to make things happen! 🚀":
         </p>
         </div>
         <div class="social-links">
-            <button><a href="https://youtube.com/@BloodGangInc">YouTube</a></button>
-            <button><a href="https://reddit.com/r/4zx16">Community Posts</a></button>
-            <button><a href="https://twitter.com/BloodGangInc">Twitter</a></button>
-            <button><a href="https://linkr.it/blood">Discord</a></button>
-            <button><a href="https://linkr.it/bloodweb">Website</a></button>
-            <button><a href="https://www.roblox.com/groups/3901342">Roblox</a></button>
+            <button><a href="https://youtube.com/@BloodGangInc">YouTube,</a></button>
+            <button><a href="https://reddit.com/r/4zx16">Community Posts,</a></button>
+            <button><a href="https://twitter.com/BloodGangInc">Twitter,</a></button>
+            <button><a href="https://linkr.it/blood">Discord,</a></button>
+            <button><a href="https://linkr.it/bloodweb">Website,</a></button>
+            <button><a href="https://www.roblox.com/groups/3901342">Roblox.</a></button>
         </div>
     </div>
         <div class="work-images">
