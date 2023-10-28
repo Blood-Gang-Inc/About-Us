@@ -1,39 +1,36 @@
-body {
-    font-family: Arial, sans-serif;
-    color: white;
+/* Reset some default styles */
+body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    padding: 10px 20px;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
+    padding: 20px;
 }
 
 .logo img {
+    width: 70px; /* Adjust the size of your logo */
+    height: 75px;
     margin-right: 10px;
 }
 
 nav ul {
     list-style: none;
-    display: flex;
 }
 
 nav ul li {
+    display: inline;
     margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
 }
 
 section {
@@ -48,6 +45,5 @@ section img {
 
 footer {
     text-align: center;
-    background-color: #333;
-    padding: 10px 0;
+    padding: 10px;
 }
