@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <!-- Your head content goes here -->
-</head>
-<body>
     <div class="container">
         <h2>Hi there 👋</h2>
         <p>
