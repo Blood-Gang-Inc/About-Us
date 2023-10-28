@@ -1,14 +1,8 @@
-/* Reset some default styles */
-body, h1, h2, p, ul {
+body {
+    font-family: Arial, sans-serif;
+    color: white;
     margin: 0;
     padding: 0;
-}
-
-body {
-    background-color: black;
-    color: white;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
 }
 
 header {
@@ -16,16 +10,25 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
-    width: 70px; /* Adjust the size of your logo */
-    height: 75px;
     margin-right: 10px;
+}
+
+h1 {
+    margin: 0;
 }
 
 nav ul {
     list-style: none;
+    padding: 0;
 }
 
 nav ul li {
@@ -46,4 +49,9 @@ section img {
 footer {
     text-align: center;
     padding: 10px;
+    background-color: black;
+}
+
+footer p {
+    margin: 0;
 }
