@@ -11,7 +11,7 @@
     <button><a href="https://reddit.com/r/4zx16">Community Posts,</a></button>
     <button><a href="https://twitter.com/BloodGangInc">Twitter,</a></button>
     <button><a href="https://linkr.it/blood">Discord,</a></button>
-    <button><a href="https://linkr.it/bloodweb">Website,</a></button>
+    <button><a href="https://blood-gang-inc.github.io/.github/">Website,</a></button>
     <button><a href="https://www.roblox.com/groups/3901342">Roblox.</a></button>
 </div>
 
