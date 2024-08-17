@@ -19,11 +19,6 @@
                 <li><a href="https://www.roblox.com/groups/3901342" target="_blank">Roblox</a></li>
             </ul>
         </section>
-                <div class="button-container">
-            <a class="button" href="https://linkr.it/blood" target="_blank">
-                <img src="https://files.catbox.moe/cunqhf.png" alt="Discord's Logo" style="vertical-align: middle;">
-            </a>
-        </div>
         <section>
             <h2>Showcases:</h2>
             <div class="work-images">
@@ -35,6 +30,11 @@
                 <img src="https://static.wixstatic.com/media/4585c8_86a668aa442d4588828dc8e8f9f39e2c~mv2.png/v1/fit/w_533,h_498,q_90/4585c8_86a668aa442d4588828dc8e8f9f39e2c~mv2.webp" alt="Image 2">
                 <img src="https://static.wixstatic.com/media/4585c8_ffc5498a37d5475ba36345dc52390439~mv2.png/v1/fit/w_526,h_498,q_90/4585c8_ffc5498a37d5475ba36345dc52390439~mv2.webp" alt="Image 3">
             </div>
+                        <div class="button-container">
+            <a class="button" href="https://linkr.it/blood" target="_blank">
+                <img src="https://files.catbox.moe/cunqhf.png" alt="Discord's Logo" style="vertical-align: middle;">
+            </a>
+        </div>
             <p>&copy; 2020 Blood Gang™️, Inc</p>
         </section>
     </div>
