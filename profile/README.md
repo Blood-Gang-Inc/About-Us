@@ -27,7 +27,11 @@
         <section>
             <h2>Showcases:</h2>
             <div class="work-images">
+                <h2><a href = "https://linkr.it/waist">Game Design and Development</a></h2>
+        <p>Creating immersive gaming experiences.</p>
                 <img src="https://static.wixstatic.com/media/4585c8_e600e1468e5d4361aca78861e48ff266~mv2.png/v1/fit/w_552,h_498,q_90/4585c8_e600e1468e5d4361aca78861e48ff266~mv2.webp" alt="Image 1">
+                        <h2>Technology and Programming</h2>
+        <p>Your technology and programming solutions partner.</p>
                 <img src="https://static.wixstatic.com/media/4585c8_86a668aa442d4588828dc8e8f9f39e2c~mv2.png/v1/fit/w_533,h_498,q_90/4585c8_86a668aa442d4588828dc8e8f9f39e2c~mv2.webp" alt="Image 2">
                 <img src="https://static.wixstatic.com/media/4585c8_ffc5498a37d5475ba36345dc52390439~mv2.png/v1/fit/w_526,h_498,q_90/4585c8_ffc5498a37d5475ba36345dc52390439~mv2.webp" alt="Image 3">
             </div>
