@@ -5,11 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <div class="container">
-        <section>
-            <h2>Hi there 👋</h2>
-            <p>"Passionate about coding and creating with open-source libraries. Crafting scripts to make things happen! 🚀"</p>
-        </section>
         <section>
             <h2>Links:</h2>
             <ul>
