@@ -15,12 +15,15 @@
             <ul>
                 <li><a href="https://youtube.com/@BloodGangInc" target="_blank">YouTube</a></li>
                 <li><a href="https://reddit.com/r/4zx16" target="_blank">Community Posts</a></li>
-                <li><a href="https://twitter.com/BloodGangInc" target="_blank">Twitter</a></li>
-                <li><a href="https://linkr.it/blood" target="_blank">Discord</a></li>
                 <li><a href="https://blood-gang-inc.github.io/.github/" target="_blank">Website</a></li>
                 <li><a href="https://www.roblox.com/groups/3901342" target="_blank">Roblox</a></li>
             </ul>
         </section>
+                <div class="button-container">
+            <a class="button" href="https://linkr.it/blood" target="_blank">
+                <img src="https://files.catbox.moe/cunqhf.png" alt="Discord's Logo" style="vertical-align: middle;">
+            </a>
+        </div>
         <section>
             <h2>Showcases:</h2>
             <div class="work-images">
