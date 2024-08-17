@@ -6,7 +6,7 @@
 </head>
 <body>
         <section>
-            <h2>Links:</h2>
+            <h2> <img src="https://github.com/user-attachments/assets/ba78de70-ec68-45e8-8d4b-fbc5de812820" alt="BG Official"> Links:</h2>
             <ul>
                 <li><a href="https://youtube.com/@BloodGangInc" target="_blank">YouTube</a></li>
                 <li><a href="https://blood-gang-inc.github.io/.github/" target="_blank">Website</a></li>
