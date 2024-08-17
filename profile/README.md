@@ -1,6 +1,4 @@
-# Blood Gang Inc
-
-## Hi there 👋
+# Hi there 👋
 
 "Passionate about coding and creating with open-source libraries. Crafting scripts to make things happen! 🚀"
 
