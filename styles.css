@@ -1,16 +1,19 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     color: white;
+    background-color: #121212; /* Dark background for a modern feel */
     margin: 0;
     padding: 0;
 }
 
+/* Header Styles */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: black;
+    background-color: #1c1c1c; /* Slightly lighter than the body for contrast */
 }
 
 .logo {
@@ -20,12 +23,17 @@ header {
 
 .logo img {
     margin-right: 10px;
+    width: 50px; /* Set a fixed size for logos */
+    height: auto;
 }
 
 h1 {
     margin: 0;
+    font-size: 1.8em; /* Increased font size for prominence */
+    color: #ff4081; /* Brand color for the title */
 }
 
+/* Navigation Styles */
 nav ul {
     list-style: none;
     padding: 0;
@@ -36,22 +44,55 @@ nav ul li {
     margin-right: 20px;
 }
 
+nav a {
+    color: #ff80ab; /* Lighter shade for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: white; /* Change color on hover for visibility */
+}
+
+/* Section Styles */
 section {
     text-align: center;
     padding: 40px;
+    margin: 20px; /* Add margin for spacing between sections */
+    background-color: #1c1c1c; /* Consistent background for sections */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
 }
 
 section img {
     max-width: 100%;
     height: auto;
+    border-radius: 8px; /* Rounded corners for images */
 }
 
+/* Footer Styles */
 footer {
     text-align: center;
     padding: 10px;
-    background-color: black;
+    background-color: #1c1c1c; /* Consistent footer background */
+    position: relative; /* Position for better layout control */
+    margin-top: 20px; /* Space above footer */
 }
 
 footer p {
     margin: 0;
+    color: #aaa; /* Light gray for less prominence */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stack links vertically on small screens */
+        align-items: center;
+    }
+
+    section {
+        padding: 20px; /* Less padding on smaller screens */
+    }
 }
