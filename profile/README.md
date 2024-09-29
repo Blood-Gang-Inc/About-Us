@@ -6,7 +6,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Blood Gang Inc. Official</h1>
+        <h1>Welcome to Blood Gang Inc.</h1>
     </header>
     <section>
         <h2>
