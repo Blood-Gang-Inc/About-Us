@@ -6,7 +6,7 @@
 </head>
 <body>
     <header>
-       ![image](https://static.wixstatic.com/media/4585c8_562a61587130440b8df3e8d713ad29bf~mv2.png/v1/fill/w_70,h_75,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/blood%20gang%20icon.png) <h1>Welcome to Blood Gang Inc.</h1>
+        <img src="https://static.wixstatic.com/media/4585c8_562a61587130440b8df3e8d713ad29bf~mv2.png/v1/fill/w_70,h_75,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/blood%20gang%20icon.png" alt="BG's Logo" width="50" height="50"> <h1>Welcome to Blood Gang Inc.</h1>
     </header>
     <section>
         <h2>
