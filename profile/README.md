@@ -30,7 +30,6 @@
             </a>
         </div>
     </section>
-
     <section>
         <h2>
             <img src="https://github.com/user-attachments/assets/ba78de70-ec68-45e8-8d4b-fbc5de812820" alt="BG Official Logo" width="50" height="50">
