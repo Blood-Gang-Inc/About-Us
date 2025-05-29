@@ -3,48 +3,80 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bloodware™️ — Where Innovation Bleeds into Reality</title>
-  <link rel="icon" type="image/x-icon" href="blood gang icon.webp" />
+  <title>Bloodware, Inc. — Software Innovation</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/x-icon" href="bloodware-icon.webp" />
 </head>
 <body>
   <header>
     <div class="logo">
-      <img src="blood gang icon.webp" alt="blood gang icon" />
-      <h1>Bloodware™️</h1>
+      <img src="bloodware-icon.webp" alt="Bloodware Logo" />
+      <h1>Bloodware, Inc.</h1>
     </div>
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
-        <li><a href="#services" onclick="alert('Coming soon!')">Services</a></li>
-        <li><a href="#contact" onclick="alert('Coming soon!')">Contact</a></li>
+        <li><a href="#services">Our Work</a></li>
+        <li><a href="#krynet">Krynet</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
+
   <main>
-    <section id="about" class="about-section">
-      <h2>Welcome to Bloodware 🩸</h2>
-      <p>
-        Bloodware is a respected modding company specializing in enhancing and modifying games to elevate features, performance, and user experience.
-      </p>
-      <p>
-        With deep expertise in game mechanics and design, Bloodware crafts custom mods that improve existing content and introduce innovative gameplay features.
-      </p>
-      <p class="tagline">Where Innovation Bleeds into Reality.</p>
+    <section id="hero">
+      <h2>Where Innovation Bleeds Into Reality</h2>
+      <p>Bloodware is your premier partner for game mods, software solutions, high-performance PCs, and groundbreaking gaming experiences.</p>
+      <a href="#contact" class="btn-primary">Get In Touch</a>
     </section>
-    <section id="krynet" class="krynet-section">
-    <h2>Krynet: Privacy-First Social Media</h2>
-    <p>
-    Bloodware proudly powers <a href="https://krynet.ai" target="_blank" rel="noopener noreferrer">Krynet</a>, a privacy-focused social media platform designed for secure, simplified communication with zero compromises on user data.
-    </p>
-  </section>
+
+    <section id="about" class="content-section">
+      <h2>About Bloodware</h2>
+      <p>
+        Bloodware specializes in custom game modifications, software development, and high-performance computing solutions. Our expertise
+        drives immersive experiences and empowers creators with cutting-edge tech and innovation.
+      </p>
+    </section>
+
+    <section id="services" class="content-section">
+      <h2>Our Expertise</h2>
+      <div class="service-cards">
+        <article>
+          <h3>Game Modding</h3>
+          <p>Custom mods that enhance gameplay, improve performance, and introduce unique features.</p>
+        </article>
+        <article>
+          <h3>Software Development</h3>
+          <p>Tailored software solutions for creative studios and innovative projects.</p>
+        </article>
+        <article>
+          <h3>High-Performance PCs</h3>
+          <p>Built to empower developers and gamers with the latest premium components.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="krynet" class="content-section">
+      <h2>Krynet</h2>
+      <p>
+        We power <a href="https://krynet.ai" target="_blank" rel="noopener noreferrer">Krynet</a>, a privacy-focused social platform built for secure, streamlined communication with user data protection as the core.
+      </p>
+    </section>
+
+    <section id="contact" class="content-section">
+      <h2>Contact Us</h2>
+      <p>Interested in collaborating or want to learn more? Reach out and let’s build the future together.</p>
+      <a href="mailto:contact@bloodware.inc" class="btn-secondary">Email Us</a>
+    </section>
   </main>
+
   <footer>
-    &copy; <span id="year"></span> Bloodware™️. All Rights Reserved.
+    <p>&copy; <span id="footer-year"></span> Bloodware, Inc. All rights reserved.</p>
   </footer>
+
   <script>
-    // Auto update footer year
-    document.getElementById('year').textContent = new Date().getFullYear();
+    // Set current year in footer
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
