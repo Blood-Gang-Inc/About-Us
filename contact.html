@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Bloodware</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Bloodware Logo" />
+      <h1>Bloodware</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+        <li><a href="https://krynet.ai" target="_blank" rel="noopener noreferrer">Krynet</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="content-section">
+      <h2>Contact Us</h2>
+      <p>Have questions, ideas, or want to collaborate? Hit us up below — we’re ready to listen.</p>
+
+      <form action="mailto:contact@bloodware.com" method="POST" enctype="text/plain" class="contact-form" novalidate>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="What’s this about?" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Drop your message here..." required></textarea>
+
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+      <div class="socials">
+  <h3>Connect with us</h3>
+  <ul>
+    <li><a href="https://twitter.com/bloodware" target="_blank" rel="noopener noreferrer">🐦 Twitter</a></li>
+    <li><a href="https://www.linkedin.com/company/bloodware" target="_blank" rel="noopener noreferrer">🔗 LinkedIn</a></li>
+    <li><a href="https://github.com/bloodware" target="_blank" rel="noopener noreferrer">🐙 GitHub</a></li>
+    <li><a href="mailto:contact@bloodware.com">📧 Email</a></li>
+  </ul>
+</div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Bloodware. All rights reserved.
+  </footer>
+  <script src="Site.js"></script>
+</body>
+</html>
