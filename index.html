@@ -3,74 +3,45 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bloodware, Inc. — Software Development & Modding Studio</title>
+  <title>Bloodware™️ — Where Innovation Bleeds into Reality</title>
+  <link rel="icon" type="image/x-icon" href="bloodware-icon.webp" />
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="blood-gang-icon.webp" type="image/webp" />
 </head>
 <body>
+  <header>
+    <div class="logo">
+      <img src="bloodware-icon.webp" alt="Bloodware Logo" />
+      <h1>Bloodware™️</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services" onclick="alert('Coming soon!')">Services</a></li>
+        <li><a href="#contact" onclick="alert('Coming soon!')">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<header style="background-color:#100000; padding: 1rem 2rem; display: flex; align-items: center; gap: 1rem;">
-  <img src="blood-gang-icon.webp" alt="Bloodware Logo" style="width:48px; height:48px;" />
-  <h1 style="color:#d11; font-weight:700; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin:0;">Bloodware™️, Inc.</h1>
-</header>
+  <main>
+    <section id="about" class="about-section">
+      <h2>Welcome to Bloodware 🩸</h2>
+      <p>
+        Bloodware is a respected modding company specializing in enhancing and modifying games to elevate features, performance, and user experience.
+      </p>
+      <p>
+        With deep expertise in game mechanics and design, Bloodware crafts custom mods that improve existing content and introduce innovative gameplay features.
+      </p>
+      <p class="tagline">Where Innovation Bleeds into Reality.</p>
+    </section>
+  </main>
 
-<nav style="background-color:#1a0000; padding: 0.75rem 2rem;">
-  <ul style="list-style:none; display:flex; gap:2rem; margin:0; padding:0; justify-content:center;">
-    <li><a href="https://linkr.it/blood" target="_blank" rel="noopener" style="color:#d11; text-decoration:none;">Discord</a></li>
-    <li><a href="https://bloodgang.carrd.co/" target="_blank" rel="noopener" style="color:#d11; text-decoration:none;">Company History</a></li>
-    <li><a href="https://github.com/BloodGangInc" target="_blank" rel="noopener" style="color:#d11; text-decoration:none;">GitHub</a></li>
-    <li><a href="https://www.youtube.com/@Bloodwareinc" target="_blank" rel="noopener" style="color:#d11; text-decoration:none;">YouTube</a></li>
-  </ul>
-</nav>
+  <footer>
+    &copy; <span id="year"></span> Bloodware™️. All Rights Reserved.
+  </footer>
 
-<main style="background-color:#000; color:#eee; max-width:960px; margin:2rem auto; padding:0 1rem; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-
-  <section style="margin-bottom: 3rem;">
-    <h2 style="color:#d11; font-weight:700;">About Bloodware</h2>
-    <p style="line-height:1.6;">
-      Bloodware, Inc. is a professional software development and modding studio specializing in high-quality game modifications and software tools.
-      Formerly known as <strong>Team Force RBLX</strong>, we have reclaimed our original brand name and maintain strict control over all partnerships and endorsements.
-      Any associations or collaborations must be verified by Bloodware employees to be official.
-    </p>
-  </section>
-
-  <section style="margin-bottom: 3rem;">
-    <h2 style="color:#d11; font-weight:700;">Our Expertise</h2>
-    <ul style="line-height:1.6; list-style-type: disc; margin-left: 1.5rem;">
-      <li>Custom game modifications and tools for developers and gamers.</li>
-      <li>Collaborations with our game development partners: <a href="https://twitter.com/VelxyStudios" target="_blank" rel="noopener" style="color:#d11;">Velxy Studios</a> and <a href="https://twitter.com/DeadLantrnGames" target="_blank" rel="noopener" style="color:#d11;">Dead Lantern Games</a>.</li>
-      <li>Building and optimizing our games and software using powerful hardware provided by <a href="https://arza.tech" target="_blank" rel="noopener" style="color:#d11;">Arza PCs</a>.</li>
-      <li>Focused on innovation, quality, and community-driven development.</li>
-    </ul>
-  </section>
-
-  <section style="margin-bottom: 3rem;">
-    <h2 style="color:#d11; font-weight:700;">Important Notice</h2>
-    <p style="line-height:1.6; font-style: italic; color:#a33;">
-      Bloodware, Inc. does <strong>NOT</strong> endorse or partner with any groups or accounts unless explicitly verified by our team.
-      Be wary of impersonators or unverified entities using our name or branding.
-    </p>
-  </section>
-
-  <section style="margin-bottom: 3rem;">
-    <h2 style="color:#d11; font-weight:700;">Connect With Us</h2>
-    <ul style="list-style:none; padding:0; display:flex; gap: 2rem;">
-      <li><a href="https://linkr.it/blood" target="_blank" rel="noopener" style="color:#d11; text-decoration:none;">Discord</a></li>
-      <li><a href="https://github.com/BloodGangInc" target="_blank" rel="noopener" style="color:#d11; text-decoration:none;">GitHub</a></li>
-      <li><a href="https://www.youtube.com/@Bloodwareinc" target="_blank" rel="noopener" style="color:#d11; text-decoration:none;">YouTube</a></li>
-      <li><a href="https://bloodgang.carrd.co/" target="_blank" rel="noopener" style="color:#d11; text-decoration:none;">Company History</a></li>
-    </ul>
-  </section>
-
-</main>
-
-<footer style="background-color:#1a0000; color:#d11; text-align:center; padding: 1rem 0; font-size: 0.9rem;">
-  <p>&copy; <span id="year"></span> Bloodware, Inc. All rights reserved.</p>
-</footer>
-
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
-
+  <script>
+    // Auto update footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
