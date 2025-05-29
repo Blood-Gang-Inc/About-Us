@@ -3,6 +3,84 @@
   box-sizing: border-box;
 }
 
+/* Add this to your styles.css */
+
+/* Container for centering and max width */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* About Section */
+.about-section {
+  background: linear-gradient(135deg, #1a1a1a 0%, #121212 100%);
+  color: #e0e0e0;
+  padding: 5rem 0;
+  border-radius: 15px;
+  box-shadow:
+    0 10px 30px rgba(255, 64, 129, 0.3),
+    inset 0 0 20px #ff4081;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.02em;
+  user-select: none;
+  transition: box-shadow 0.4s ease;
+}
+
+/* Hover effect to subtly glow */
+.about-section:hover {
+  box-shadow:
+    0 12px 40px rgba(255, 64, 129, 0.6),
+    inset 0 0 30px #ff4081;
+}
+
+/* Headline */
+.about-section h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #ff4081;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 8px #ff4081aa;
+  letter-spacing: 0.1em;
+}
+
+/* Paragraph text */
+.about-section p {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto 1.75rem auto;
+  color: #ddd;
+  font-weight: 500;
+}
+
+/* Tagline style */
+.about-section p.tagline {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ff80ab;
+  margin-top: 3rem;
+  font-style: italic;
+  text-shadow: 0 0 6px #ff80abbb;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .about-section h2 {
+    font-size: 2.2rem;
+  }
+  
+  .about-section p {
+    font-size: 1rem;
+  }
+  
+  .about-section p.tagline {
+    font-size: 1.1rem;
+  }
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #eee;
